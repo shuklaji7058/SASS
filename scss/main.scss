@@ -23,19 +23,15 @@ $font-sm: 20px;
     }
   }
 }
-.heading {
+%heading {
   color: $color-primary;
   font-size: $font-lg;
   background-color: $color-secondary;
   text-align: center;
 }
 
-@function fontSize($size) {
-  @return $size * 2;
-}
-
 h1 {
-  @extend .heading;
+  @extend %heading;
 
   &:hover {
     background-color: brown;
@@ -44,12 +40,4 @@ h1 {
 
 .footer h3 {
   @extend h1;
-}
-
-.banner p {
-  font-size: fontSize($font-sm);
-}
-
-.footer p {
-  font-size: fontSize(30px);
 }

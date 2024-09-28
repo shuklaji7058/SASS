@@ -9,7 +9,7 @@
     .nav a:hover {
       color: rgba(128, 128, 128, 0.886); }
 
-.heading, h1, .footer h3 {
+h1, .footer h3 {
   color: orange;
   font-size: 40px;
   background-color: blue;
@@ -17,9 +17,3 @@
 
 h1:hover, .footer h3:hover {
   background-color: brown; }
-
-.banner p {
-  font-size: 40px; }
-
-.footer p {
-  font-size: 60px; }
