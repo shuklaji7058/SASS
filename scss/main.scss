@@ -1,5 +1,5 @@
 $color-secondary: blue;
-$color-teritary: grey;
+$color-teritary: rgba(128, 128, 128, 0.886);
 $color-primary: orange;
 
 $font-lg: 40px;
@@ -8,10 +8,23 @@ $font-sm: 20px;
 
 .nav {
   background-color: $color-primary;
+
+  ul li {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: $font-sm;
+    color: $color-secondary;
+
+    &:hover {
+      color: $color-teritary;
+    }
+  }
 }
 
 .banner {
-  $color-secondary: red;
   font-size: $font-lg;
   color: $color-secondary;
   text-align: center;
