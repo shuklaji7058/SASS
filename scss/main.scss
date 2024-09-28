@@ -30,6 +30,10 @@ $font-sm: 20px;
   text-align: center;
 }
 
+@function fontSize($size) {
+  @return $size * 2;
+}
+
 h1 {
   @extend .heading;
 
@@ -40,4 +44,12 @@ h1 {
 
 .footer h3 {
   @extend h1;
+}
+
+.banner p {
+  font-size: fontSize($font-sm);
+}
+
+.footer p {
+  font-size: fontSize(30px);
 }
