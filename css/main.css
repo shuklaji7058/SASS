@@ -9,12 +9,16 @@
     .nav a:hover {
       color: rgba(128, 128, 128, 0.886); }
 
-.banner {
+.banner h1 {
   font-size: 40px;
   color: blue;
   text-align: center; }
 
-.footer {
-  font-size: 30px;
+.footer h3 {
+  font-size: 50px;
   color: blue;
-  text-align: center; }
+  text-align: center;
+  transition: color 0.5s, background-color 1s; }
+  .footer h3:hover {
+    color: rgba(128, 128, 128, 0.886);
+    background-color: orange; }
