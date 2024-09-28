@@ -1,2 +1,12 @@
-body {
-  background-color: #eaff00; }
+.nav {
+  background-color: orange; }
+
+.banner {
+  font-size: 40px;
+  color: red;
+  text-align: center; }
+
+.footer {
+  font-size: 30px;
+  color: blue;
+  text-align: center; }

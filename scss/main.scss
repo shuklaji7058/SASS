@@ -1,3 +1,24 @@
-body {
-  background-color: rgb(234, 255, 0);
+$color-secondary: blue;
+$color-teritary: grey;
+$color-primary: orange;
+
+$font-lg: 40px;
+$font-md: 30px;
+$font-sm: 20px;
+
+.nav {
+  background-color: $color-primary;
+}
+
+.banner {
+  $color-secondary: red;
+  font-size: $font-lg;
+  color: $color-secondary;
+  text-align: center;
+}
+
+.footer {
+  font-size: $font-md;
+  color: $color-secondary;
+  text-align: center;
 }
